@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JavaThales.main.iml" filepath="$PROJECT_DIR$/.idea/modules/JavaThales.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/JavaThalesMain.iml" filepath="$PROJECT_DIR$/.idea/JavaThalesMain.iml" />
     </modules>
   </component>
 </project>
