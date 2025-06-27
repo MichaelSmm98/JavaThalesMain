@@ -13,7 +13,7 @@ import reactor.core.publisher.Mono;
 public class EmployeeHandler {
 
     @Autowired
-    private EmployeeApiClient employeeService;
+    EmployeeApiClient employeeService;
 
     public Mono<ServerResponse> getEmployees(ServerRequest request) {
         String url = "https://dummy.restapiexample.com/api/v1/employees";
