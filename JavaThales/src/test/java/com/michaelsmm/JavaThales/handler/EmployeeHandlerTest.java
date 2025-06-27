@@ -56,7 +56,7 @@ public class EmployeeHandlerTest {
                 .consumeWith(response -> {
                     List<Employee> employees = response.getResponseBody();
                     assert employees != null;
-                    assert employees.get(0).getEmployeeName().equals("John");
+                    assert employees.get(0).getEmployee_name().equals("John");
                 });
     }
 

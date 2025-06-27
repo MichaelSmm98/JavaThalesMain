@@ -33,7 +33,7 @@ public class EmployeeApiClient {
                 ApiResponse apiResponse = gson.fromJson(jsonResponse, ApiResponse.class);
                 for (Employee emp : apiResponse.getData()) {
                     ComputeAnualSalaryEmployee.calculateAnnualSalary(emp);
-                    System.out.println(emp.getId() + " - " + emp.getEmployeeName() + " ($" + emp.getEmployeeSalary() + ")" + "Anual Salary: " + emp.getEmployeeAnualSalary());
+                    System.out.println(emp.getId() + " - " + emp.getEmployee_name() + " ($" + emp.getEmployee_salary() + ")" + "Anual Salary: " + emp.getEmployeeAnnualSalary());
                 }
                 return apiResponse.getData();
 

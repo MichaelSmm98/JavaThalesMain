@@ -7,8 +7,8 @@ public class ComputeAnualSalaryEmployee {
     public static void calculateAnnualSalary(Employee employee) {
         int employeeAnualSalary = 0;
 
-        employeeAnualSalary = employee.getEmployeeSalary()*12;
-        employee.setEmployeeAnualSalary(employeeAnualSalary);
+        employeeAnualSalary = employee.getEmployee_salary()*12;
+        employee.setEmployeeAnnualSalary(employeeAnualSalary);
     }
 
 }

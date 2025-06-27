@@ -11,9 +11,9 @@ import lombok.NoArgsConstructor;
 
 public class Employee {
     private int id;
-    private String employeeName;
-    private int employeeSalary;
-    private int employeeAge;
-    private String profileImage;
-    private int employeeAnualSalary;
+    private String employee_name;
+    private int employee_salary;
+    private int employee_age;
+    private String profile_image;
+    private int employeeAnnualSalary;
 }
