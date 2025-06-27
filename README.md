@@ -29,19 +29,36 @@ In order to use this api you must use
 The structure used:
 
 src/main/java/com.michaelsmm.JavaThales
+
 │
+
 ├── handler/
+
 │ └── api/
+
 │ └── EmployeeHandler.java
+
 │
+
 ├── models/
+
 │ ├── ApiResponse.java 
+
 │ └── Employee.java 
+
 │
+
 ├── usecase/
-│ └── ComputeAnualSalaryEmployee.java # Cálculo del salario anual
+
+│ └── ComputeAnualSalaryEmployee.java
 │
+
 ├── CorsConfig.java # Configuración de CORS
-├── JavaThalesApplication.java # Clase principal de la aplicación
-└── Router.java # Define las rutas HTTP y su enlace con los handlers
+
+├── JavaThalesApplication.java
+
+└── Router.java
+
+
+
 
